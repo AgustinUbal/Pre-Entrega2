@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Bagel Fat One', cursiva;
+    font-family: 'Carter One', cursiva;
+
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    color: #382600;
+}
+.logo1{
+    width: 150px;
+    border-radius: 50%;
+}
+ul{
+    padding: 1rem;
+    list-style: none;
+    font-size: 2rem;
+}
+.parrafo1 .parrafo2{
+    padding: 1rem;
+    line-height: 1.5;
+}
+.parrafo1{
+    font-style: italic;
+}
+.seccionImagen{
+    text-align: center;
+}
+.img1{
+    border-radius: 1rem;
+}
+header{
+    background: rgb(124,83,0);
+    background: linear-gradient(180deg, rgba(124,83,0,1) 0%, rgba(245,194,91,1) 50%, rgba(195,152,83,1) 100%);
+}
+footer{
+    background: rgb(124,83,0);
+    background: linear-gradient(180deg, rgba(124,83,0,1) 0%, rgba(245,194,91,1) 50%, rgba(195,152,83,1) 100%);
+} 
+h4{
+    font-size: 1.5rem;
+    color: #573c00;
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    font-size: 3rem;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: #573c00;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+p{
+    font-size: 1.5rem;
+    padding: 10px;
+    
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+}
+nav{
+    padding: 5px;
+    text-align: center;
+}
+li{
+     display: inline-block;
+     text-align: center;
+}
+a:hover{
+    color: #573c00;
+    background-color: white;
+    border-radius: 10%;
+}
+.contacto{
+    text-align: center;
+}
+.logo2{
+    text-align: center;
+}
+main{
+    background-color: #f4ca6f;
+}
+.fotonCoffee{
+    border-radius: 10%;
+    width: 500px;
+    display:inline-block
+}
+.fotoServicio{
+    padding: 30px;
+    border-radius: 10%;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+.serviciosTodo{
+    text-align: center;
+}
