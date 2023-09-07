@@ -15,13 +15,15 @@ h1{
     color: #382600;
 }
 .logo1{
-    width: 150px;
+    border-color: #6e4c03;
+    width: 125px;
     border-radius: 50%;
+    padding: 0;
 }
 ul{
     padding: 1rem;
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .parrafo1 .parrafo2{
     padding: 1rem;
@@ -37,8 +39,8 @@ ul{
     border-radius: 1rem;
 }
 header{
-    background: rgb(124,83,0);
-    background: linear-gradient(180deg, rgba(124,83,0,1) 0%, rgba(245,194,91,1) 50%, rgba(195,152,83,1) 100%);
+display: block;
+background-color: black;
 }
 footer{
     background: rgb(124,83,0);
@@ -58,7 +60,7 @@ h2{
     background-color: #573c00;
 }
 a{
-    color: white;
+    color: #6e4c03;
     text-decoration: none;
     padding: 20px;
     display: inline-block;
@@ -68,27 +70,20 @@ p{
     padding: 10px;
     
 }
-header{
-    width: 90%;
-    margin: 0 auto;
-}
 nav{
+    display: flex;
+    justify-content: space-evenly;
     padding: 5px;
-    text-align: center;
 }
 li{
      display: inline-block;
      text-align: center;
 }
 a:hover{
-    color: #573c00;
-    background-color: white;
+    color: #ffffff;
     border-radius: 10%;
 }
 .contacto{
-    text-align: center;
-}
-.logo2{
     text-align: center;
 }
 main{
@@ -108,4 +103,7 @@ main{
 }
 .serviciosTodo{
     text-align: center;
+}
+.logo1:hover{
+    border-radius: 40%;
 }
