@@ -52,19 +52,15 @@ height: 200px;
 footer{
     background: rgb(124,83,0);
     background: linear-gradient(180deg, rgba(124,83,0,1) 0%, rgba(245,194,91,1) 50%, rgba(195,152,83,1) 100%);
-} 
+}
+h2{ 
+    text-shadow: 0px 0px 5px black;
+}
 h4{
     font-size: 1.5rem;
     color: #573c00;
     text-align: center;
     padding: 10px;
-}
-h2{
-    font-size: 3rem;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    background-color: #573c00;
 }
 a{
     color: #6e4c03;
