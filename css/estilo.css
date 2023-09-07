@@ -82,10 +82,6 @@ li{
      display: inline-block;
      text-align: center;
 }
-a:hover{
-    color: #ffffff;
-    border-radius: 10%;
-}
 .contacto{
     text-align: center;
 }
@@ -110,6 +106,14 @@ main{
 .serviciosTodo{
     text-align: center;
 }
+.footerGrid{
+    display: grid;
+    
+}
 .logo1:hover{
     border-radius: 40%;
+}
+a:hover{
+    color: #ffffff;
+    border-radius: 10%;
 }
