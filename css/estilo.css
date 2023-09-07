@@ -20,6 +20,12 @@ h1{
     border-radius: 50%;
     padding: 0;
 }
+.logo2{
+    border-color: #6e4c03;
+    width: 125px;
+    border-radius: 50%;
+    padding: 0;
+}
 ul{
     padding: 1rem;
     list-style: none;
@@ -88,7 +94,7 @@ a:hover{
     text-align: center;
 }
 main{
-    background-color: #f4ca6f;
+    background-color: #000000;
 }
 .fotonCoffee{
     border-radius: 10%;
@@ -101,6 +107,9 @@ main{
     text-align: center;
     width: 500px;
     height: 500px;
+}
+.fotosCarrusel{
+    height: 900px;
 }
 .serviciosTodo{
     text-align: center;
