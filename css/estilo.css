@@ -41,6 +41,7 @@ ul{
 header{
 display: block;
 background-color: black;
+height: 200px;
 }
 footer{
     background: rgb(124,83,0);
