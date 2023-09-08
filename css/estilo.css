@@ -149,6 +149,45 @@ main{
     flex-direction: row;
     justify-content: space-evenly;
 }
+.nosotrosGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 0px
+    ;
+}
+.divNosotrosGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "gridUno gridDos"
+    "gridTres gridDos";
+
+}
+.gridDos { grid-area: gridDos; 
+}
+.gridUno { grid-area: gridUno; 
+}
+.gridTres { grid-area: gridTres; 
+}
+.fotoNosotros{
+    height: 375px;
+    width: 600px;
+}
+.fotoNosotros1{
+    height: 750px;
+    width: 600px;
+}
+.h2Nosotros{
+    text-align: center;
+    color:#c4c6c8;
+
+}
+.pNosotros{
+    color:#5a3d00;
+    margin: 5px;
+}
 .logo1:hover{
     border-radius: 40%;
 }
