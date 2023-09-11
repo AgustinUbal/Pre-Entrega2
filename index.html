@@ -11,23 +11,40 @@
 </head>
 <body>
     <header>   
-        <nav>
-            <ul>
-                <li>
-                    <a href="./paginas/productos.html">PRODUCTOS</a>
-                </li>
-                <li>
-                    <a href="./paginas/contacto.html">CONTACTO</a>
-                </li>
-                    <a href="index.html"><img class="logo1" src="./fotos/158.jpg" alt="logo"></a>
-                <li>
-                  <a href="./paginas/nosotros.html">NOSOTROS</a>
-                </li>
-                <li>
-                    <a href="./paginas/servicios.html">SERVICIOS</a>
-                </li>
-            </ul>
-        </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+        <div class="container-fluid p-0 celNav">
+          <div class="mediaLogo">
+              <img class="logo1" src="./fotos/158.jpg" alt="Bootstrap">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse divNavbar" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <div class="divMenu p-2 mediaLogo">
+                <a class="nav-link active fs-4" aria-current="page" href="./index.html">INICIO</a>
+              </div>
+              <div class="divMenu p-2">
+                <a class="nav-link active fs-4" aria-current="page" href="./paginas/productos.html">PRODUCTOS</a>
+              </div>
+              <div class="divMenu p-2">
+                <a class="nav-link active fs-4" aria-current="page" href="./paginas/contacto.html">CONTACTO</a>
+              </div>
+              <div class="container mediaLogo1">
+                <a class="navbar-brand p-2" href="/index.html">
+                  <img class="logo1" src="./fotos/158.jpg" alt="Bootstrap">
+                </a>
+              </div>
+              <div class="divMenu p-2">
+                <a class="nav-link active fs-4" aria-current="page" href="./paginas/servicios.html">SERVICIOS</a>
+              </div>
+              <div class="divMenu p-2">
+                <a class="nav-link active fs-4" aria-current="page" href="./paginas/nosotros.html">NOSOTROS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
         <div id="carouselExampleCaptions" class="carousel slide">
@@ -67,6 +84,16 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
+          </div>
+          <div class="mediaTexto">
+            <p>“No queremos ser el mejor cafe del mundo. </p>
+              <p class="fs-1">Queremos ser el mejor cafe PARA el mundo."</p>
+              <p>
+                En el 2002 Santiago Peralta y Carla Barbotó empezaron a transitar por un camino histórico, fundando una empresa de cafe única, que en tan solo 6 años estaría exportando sus barras al extranjero, desafiando el mercado y la mentalidad de un mundo globalizado.
+              </p>
+              <p class="text-uppercase">
+                HECHO EN N.Y CON SABORES LOCALES Y DEL MUNDO
+              </p>
           </div>
     </main>
         <footer>

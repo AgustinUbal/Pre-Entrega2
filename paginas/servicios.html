@@ -11,37 +11,97 @@
 </head>
 <body>
     <header>   
-        <nav>
-            <ul>
-                <li>
-                    <a href="./productos.html">PRODUCTOS</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">CONTACTO</a>
-                </li>
-                    <a href="../index.html"><img class="logo1" src="../fotos/158.jpg" alt="logo"></a>
-                <li>
-                  <a href="./nosotros.html">NOSOTROS</a>
-                </li>
-                <li>
-                    <a href="./servicios.html">SERVICIOS</a>
-                </li>
-            </ul>
-        </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+        <div class="container-fluid p-0 celNav">
+          <div class="mediaLogo">
+              <img class="logo1" src="../fotos/158.jpg" alt="Bootstrap">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse divNavbar" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <div class="divMenu p-2 mediaLogo">
+                <a class="nav-link active fs-4" aria-current="page" href="../index.html">INICIO</a>
+              </div>
+              <div class="divMenu p-2">
+                <a class="nav-link active fs-4" aria-current="page" href="./productos.html">PRODUCTOS</a>
+              </div>
+              <div class="divMenu p-2">
+                <a class="nav-link active fs-4" aria-current="page" href="./contacto.html">CONTACTO</a>
+              </div>
+              <div class="container mediaLogo1">
+                <a class="navbar-brand p-2" href="../index.html">
+                  <img class="logo1" src="../fotos/158.jpg" alt="Bootstrap">
+                </a>
+              </div>
+              <div class="divMenu p-2">
+                <a class="nav-link active fs-4" aria-current="page" href="./servicios.html">SERVICIOS</a>
+              </div>
+              <div class="divMenu p-2">
+                <a class="nav-link active fs-4" aria-current="page" href="./nosotros.html">NOSOTROS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
-    <hr>
     <main>
         <section>
-            <h2>
+            <h1 class="text-center h2Nosotros">
                 Servicios
-            </h2>
+            </h1>
         </section>
-        <hr>
-        <div class="serviciosTodo">
+        <div class="grid text-center" style="--bs-columns: 4; --bs-gap: 5rem;">
+          <div class="g-col-2">
             <img class="fotoServicio" src="../fotos/cafeservicio1.jpg" alt="cafeServicio1">
+          </div>
+          <div class="g-col-2">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="g-col-6">
             <img class="fotoServicio" src="../fotos/cafeservicio2.jpg" alt="cafeServicio1">
+          </div>
+          <div class="g-col-6">
             <img class="fotoServicio" src="../fotos/cafeservicio3.jpg" alt="cafeServicio1">
-            
+          </div>
         </div>
             
     </main>
