@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.estiloNav{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Bagel Fat One', cursiva;
     font-family: 'Carter One', cursiva;
-
 }
 h1{
     text-align: center;
@@ -129,6 +132,7 @@ main{
 }
 .divContacto{
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.87);
 }
 .contactanos{
     width: 100%;
@@ -185,7 +189,7 @@ main{
 
 }
 .pNosotros{
-    color:#5a3d00;
+    color:#b96f07;
     margin: 5px;
 }
 .fotoProductos{
@@ -207,7 +211,6 @@ main{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px 10px;
-    
 }
 .btn-bd-primary:hover{
     color: #6e4c03;
