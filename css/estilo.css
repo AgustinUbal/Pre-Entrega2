@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.estiloNav{
+Nav{
     font-family: 'Oswald', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 body{
     display: flex;
@@ -15,8 +15,10 @@ body{
     font-family: 'Carter One', cursiva;
 }
 h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
     text-align: center;
-    color: #6e4c03; 
+    color:#c4c6c8;
 }
 .logo1{
     border-color: #6e4c03;
@@ -62,7 +64,7 @@ h4{
     padding: 10px;
 }
 a{
-    color:#6e4c03 !important;
+    color:#825a02 !important;
 }
 p{
     font-size: 1.5rem;
@@ -183,14 +185,17 @@ main{
     height: 750px;
     width: 600px;
 }
-.h2Nosotros{
-    text-align: center;
-    color:#c4c6c8;
-
-}
 .pNosotros{
-    color:#b96f07;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color:#f69928;
     margin: 5px;
+}
+.h2Nosotros{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color:#c4c6c8
 }
 .fotoProductos{
     height: auto;
@@ -198,8 +203,7 @@ main{
 }
 .btn-bd-primary{
     color: #ffffff;
-    background-color: #6e4c03;
-    border-radius: 50px 10px;
+    background-color: #875c00;
 }
 .divMenu{
     display: flex;
@@ -213,16 +217,20 @@ main{
     gap: 10px 10px;
 }
 .btn-bd-primary:hover{
-    color: #6e4c03;
-    background-color: #070707;
-    border-radius: 10px 50px;
+    transition: 1s;
+    color: #ffffff;
+    background-color: #694800;
 }
 .logo1:hover{
-    border-radius: 40%;
+    transition: 1s;
+    transform: scale(1.1);
 }
 a:hover{
     color: #ffffff !important;
-    border-radius: 10% !important;
+    transition: 1s;
+    text-decoration: underline #f69928;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
 }
 
 @media (max-width: 576px) {
