@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Nav {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Bagel Fat One", cursiva;
+  font-family: "Carter One", cursiva;
+}
+main {
+  flex-grow: 1;
+  background-color: #000000;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #c4c6c8;
+}
+
+.logo1 {
+  border-color: #6e4c03;
+  width: 125px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.logo2 {
+  border-color: #6e4c03;
+  width: 125px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+ul {
+  padding: 1rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.parrafo1 .parrafo2 {
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+.parrafo1 {
+  font-style: italic;
+}
+
+.seccionImagen {
+  text-align: center;
+}
+
+.img1 {
+  border-radius: 1rem;
+}
+
+footer {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(124, 83, 0) 0%, rgb(245, 194, 91) 50%, rgb(195, 152, 83) 100%);
+}
+
+.h2Carrusel {
+  text-shadow: 0px 0px 5px black;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: #573c00;
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: #825a02 !important;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.divNavbar {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+
+.fotonCoffee {
+  border-radius: 10%;
+  width: 500px;
+  display: inline-block;
+}
+
+.fotoServicio {
+  border-radius: 10%;
+  width: 500px;
+  height: 500px;
+}
+
+.divFotoServicios {
+  display: flex;
+  flex-direction: row;
+}
+
+.acordeon {
+  width: 100%;
+  height: 100%;
+}
+
+.fotosCarrusel {
+  height: 100vh;
+  width: 100vw;
+}
+
+.footerGrid {
+  display: grid;
+}
+
+.mainContacto {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 1fr;
+  gap: 0px 0px;
+}
+
+.mainMapa {
+  grid-area: mapa;
+}
+
+.mainContacto {
+  background-image: url(../fotos/BackgroundContacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mapa {
+  height: 665px;
+  width: 500px;
+}
+
+.h2Mapa {
+  background-color: #c4c6c8;
+  text-align: center;
+  color: #000000;
+}
+
+.divContacto {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.87);
+}
+
+.contactanos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contactanosDentro {
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.iconosRedes {
+  width: 50px;
+  height: 50px;
+}
+
+.divIconosRedes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nosotrosGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 0px;
+}
+
+.divNosotrosGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: 
+  "gridUno gridDos"
+   "gridTres gridDos";
+}
+
+.gridDos {
+  grid-area: gridDos;
+}
+
+.gridUno {
+  grid-area: gridUno;
+}
+
+.gridTres {
+  grid-area: gridTres;
+}
+
+.fotoNosotros {
+  height: 375px;
+  width: 600px;
+}
+
+.fotoNosotros1 {
+  height: 750px;
+  width: 600px;
+}
+
+.pNosotros {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #f69928;
+  margin: 5px;
+}
+
+.h2Nosotros {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #c4c6c8;
+}
+
+.fotoProductos {
+  height: auto;
+  width: auto;
+}
+
+.btn-bd-primary {
+  color: #ffffff;
+  background-color: #875c00;
+}
+
+.divMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.divServ {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas: 
+   "foto1 foto1 foto2 foto3 texto texto"
+   "foto1 foto1 foto4 foto4 texto texto";
+  width: 300px;
+  height: 300px;
+}
+.foto1 {
+  grid-area: foto1;
+}
+.foto2 {
+  grid-area: foto2;
+}
+.foto3 {
+  grid-area: foto3;
+}
+.foto4 {
+  grid-area: foto4;
+}
+.texto {
+  grid-area: texto;
+}
+.imgSer {
+  width: 100%;
+  height: 100%;
+}
+.divServicios {
+  display: grid;
+  place-content: center;
+}
+
+.h2Servicios {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #c4c6c8;
+}
+
+.h3Servicios {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #c4c6c8;
+}
+
+.btn-bd-primary:hover {
+  transition: 1s;
+  color: #ffffff;
+  background-color: #694800;
+}
+
+.logo1:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+a:hover {
+  color: #ffffff !important;
+  transition: 1s;
+  text-decoration: underline #f69928;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+}
+
+@media (max-width: 576px) {
+  body{
+    min-height: 100vh;
+  }
+  main {
+    background-color: #000000;
+  }
+  .celNav {
+    background-color: #ffffff;
+  }
+  .mediaLogo1 {
+    display: none;
+  }
+  .fotosCarrusel {
+    width: 400px;
+    height: 400px;
+  }
+  .divNavbar{
+    background-color: #ffffff;
+  }
+  .mainContacto{
+    display: block;
+  }
+  .divServ{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 400px 400px 400px 400px 400px 400px;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas: 
+   "foto1"
+   "foto2"
+   "foto3"
+   "foto4"
+   "texto"
+   "texto";
+  }
+  a:hover {
+    color: #000000 !important;
+    transition: 1s;
+    text-decoration: underline #f69928;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+  }
+  .nosotrosGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 200px 0px;
+  }
+  .divNosotrosGrid {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 0px 0px;
+    grid-template-areas: 
+    "gridUno"
+    "gridDos"
+    "gridTres";
+  }
+  .fotoNosotros {
+    margin: 70px;
+    height: 400px;
+    width: 400px;
+  }
+  
+  .fotoNosotros1 {
+    margin: 70px;
+    height: 400px;
+    width: 400px;
+  }
+
+}
+@media screen and (min-width: 576px) {
+  .mediaLogo {
+    display: none;
+  }
+  .mediaTexto {
+    display: none;
+  }
+}
