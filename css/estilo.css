@@ -1,3 +1,101 @@
+main div h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #c4c6c8;
+}
+main .mainContacto {
+  background-image: url(../fotos/BackgroundContacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 1fr;
+  gap: 0px 0px;
+}
+main .mainContacto .divMapa .h2Mapa {
+  background-color: #c4c6c8;
+  text-align: center;
+  color: #000000;
+}
+main .mainContacto .divMapa .h2Mapa .h2Mapa {
+  background-color: #c4c6c8;
+  text-align: center;
+  color: #000000;
+}
+main .mainContacto .divMapa .mapa {
+  height: 665px;
+  width: 500px;
+}
+main .mainContacto .divContacto {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.87);
+}
+main .mainContacto .divContacto .h2Mapa {
+  background-color: #c4c6c8;
+  text-align: center;
+  color: #000000;
+}
+main .mainContacto .divContacto .contactanos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+main .mainContacto .divContacto .contactanos .contactanosDentro {
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+main .mainContacto .divContacto .contactanos .contactanosDentro h4 {
+  font-size: 1.5rem;
+  color: #573c00;
+  text-align: center;
+  padding: 10px;
+}
+main .mainContacto .divContacto .contactanos .contactanosDentro {
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+main .mainContacto .divContacto .contactanos .contactanosDentro h4 {
+  font-size: 1.5rem;
+  color: #573c00;
+  text-align: center;
+  padding: 10px;
+}
+main .mainContacto .divContacto .contactanos .contactanosDentro {
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+main .mainContacto .divContacto .contactanos .contactanosDentro h4 {
+  font-size: 1.5rem;
+  color: #573c00;
+  text-align: center;
+  padding: 10px;
+}
+main div div .h2Mapa {
+  background-color: #c4c6c8;
+  text-align: center;
+  color: #000000;
+}
+main div .divIconosRedes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+main div .divIconosRedes .iconosRedes {
+  width: 50px;
+  height: 50px;
+}
+main div .divIconosRedes .iconosRedes {
+  width: 50px;
+  height: 50px;
+}
+main div .divIconosRedes .iconosRedes {
+  width: 50px;
+  height: 50px;
+}
+main div .divIconosRedes .iconosRedes {
+  width: 50px;
+  height: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
