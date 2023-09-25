@@ -1,0 +1,81 @@
+main{
+    div{
+        h1{
+            font-family: "Oswald", sans-serif;
+            font-weight: 700;
+            text-align: center;
+            color: #c4c6c8;
+        }
+    }
+    .nosotrosGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px 0px;
+        .divNosotrosGrid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 0px 0px;
+            grid-template-areas: 
+            "gridUno gridDos"
+            "gridTres gridDos";
+            .gridUno{
+                grid-area: gridUno;
+                .fotoNosotros{
+                    height: 375px;
+                    width: 600px;
+                }
+            }
+            .gridDos{
+                grid-area: gridDos;
+                .fotoNosotros1{
+                    height: 750px;
+                    width: 600px;
+                }
+            }
+            .gridTres{
+                grid-area: gridTres;
+                .fotoNosotros{
+                    height: 375px;
+                    width: 600px;
+                }
+            }
+        }
+        div{
+            .h2Nosotros{
+                font-family: "Oswald", sans-serif;
+                font-weight: 500;
+                text-align: center;
+                color: #c4c6c8;
+            }
+        }.pNosotros{
+            font-family: "Oswald", sans-serif;
+            font-size: 29px;
+            font-weight: 300;
+            color: #f69928;
+            margin: 5px;
+        }
+        .pNosotros{
+            font-family: "Oswald", sans-serif;
+            font-size: 29px;
+            font-weight: 300;
+            color: #f69928;
+            margin: 5px;
+        }
+        .pNosotros{
+            font-family: "Oswald", sans-serif;
+            font-size: 29px;
+            font-weight: 300;
+            color: #f69928;
+            margin: 5px;
+        }
+        .pNosotros{
+            font-family: "Oswald", sans-serif;
+            font-size: 29px;
+            font-weight: 300;
+            color: #f69928;
+            margin: 5px;
+        }
+        
+      }
+    }
