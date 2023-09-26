@@ -1,0 +1,43 @@
+main{
+    div{
+        h1{
+            font-family: "Oswald", sans-serif;
+            font-weight: 700;
+            text-align: center;
+            color: #c4c6c8;
+        }
+    }
+    section{
+        div{
+            div{
+                div{
+                    .fotoProductos{
+                        height: auto;
+                        width: auto;
+                    }
+                    div{
+                        div{
+                            .btn-bd-primary{
+                                color: #ffffff;
+                                background-color: #875c00;
+                                &:hover{
+                                    transition: 1s;
+                                    color: #ffffff;
+                                    background-color: #694800;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        div{
+            div{
+                .fotoProductos{
+                    height: auto;
+                    width: auto; 
+                }
+            }
+        }
+    }
+}

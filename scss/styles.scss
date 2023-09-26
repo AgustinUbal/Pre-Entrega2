@@ -1,5 +1,8 @@
 @import "_contacto";
 @import "_nosotros";
+@import "_servicios";
+@import "_productos";
+@import "_mediaQ";
 
 
 * {
@@ -37,6 +40,7 @@
                     justify-content: center;
                     div{
                         .divMenu .mediaLogo{
+                            display: none;
                             display: flex;
                             flex-direction: column;
                             justify-content: center;

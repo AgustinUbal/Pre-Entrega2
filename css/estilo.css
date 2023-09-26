@@ -170,6 +170,184 @@ main .nosotrosGrid .pNosotros {
   margin: 5px;
 }
 
+main h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #c4c6c8;
+}
+main .divServ {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas: "foto1 foto1 foto2 foto3 texto texto" "foto1 foto1 foto4 foto4 texto texto";
+  width: 300px;
+  height: 300px;
+}
+main .divServ .foto4 {
+  grid-area: foto4;
+}
+main .divServ .foto4 .imgSer {
+  width: 100%;
+  height: 100%;
+}
+main .divServ .foto2 {
+  grid-area: foto2;
+}
+main .divServ .foto2 .imgSer {
+  width: 100%;
+  height: 100%;
+}
+main .divServ .foto3 {
+  grid-area: foto3;
+}
+main .divServ .foto3 .imgSer {
+  width: 100%;
+  height: 100%;
+}
+main .divServ .foto1 {
+  grid-area: foto1;
+}
+main .divServ .foto1 .imgSer {
+  width: 100%;
+  height: 100%;
+}
+main .divServ div .h2Servicios {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #c4c6c8;
+}
+main .divServ div .h3Servicios {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #c4c6c8;
+}
+main .divServ div .pNosotros {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #f69928;
+  margin: 5px;
+}
+main .divServ div .h3Servicios {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #c4c6c8;
+}
+main .divServ div div .pNosotros {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #f69928;
+  margin: 5px;
+}
+
+main div h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #c4c6c8;
+}
+main section div div div .fotoProductos {
+  height: auto;
+  width: auto;
+}
+main section div div div div div .btn-bd-primary {
+  color: #ffffff;
+  background-color: #875c00;
+}
+main section div div div div div .btn-bd-primary:hover {
+  transition: 1s;
+  color: #ffffff;
+  background-color: #694800;
+}
+main section div div .fotoProductos {
+  height: auto;
+  width: auto;
+}
+
+@media screen and (min-width: 576px) {
+  body header nav div .mediaLogo {
+    display: none;
+  }
+  .mediaTexto {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    min-height: 100vh;
+  }
+  main {
+    background-color: #000000;
+  }
+  .celNav {
+    background-color: #ffffff;
+  }
+  .mediaLogo1 {
+    display: none;
+  }
+  main section div div div .fotosCarrusel {
+    width: 200px;
+    height: 200px;
+  }
+  .divNavbar {
+    background-color: #ffffff;
+  }
+  main .mainContacto {
+    display: block;
+  }
+  main .divServ {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 400px 400px 400px 400px 400px 400px;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas: "foto1" "foto2" "foto3" "foto4" "texto" "texto";
+  }
+  a:hover {
+    color: #000000 !important;
+    transition: 1s;
+    text-decoration: underline #f69928;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+  }
+  main .nosotrosGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 200px 0px;
+  }
+  main .nosotrosGrid .divNosotrosGrid {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 0px 0px;
+    grid-template-areas: "gridUno" "gridDos" "gridTres";
+  }
+  main .nosotrosGrid .divNosotrosGrid .gridUno .fotoNosotros {
+    margin: 50px;
+    height: 400px;
+    width: 400px;
+  }
+  main .nosotrosGrid .divNosotrosGrid .gridDos .fotoNosotros1 {
+    margin: 50px;
+    height: 400px;
+    width: 400px;
+  }
+  main .nosotrosGrid .divNosotrosGrid .gridTres .fotoNosotros {
+    margin: 50px;
+    height: 400px;
+    width: 400px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -201,6 +379,7 @@ header nav div .divNavbar {
   justify-content: center;
 }
 header nav div .divNavbar div .divMenu .mediaLogo {
+  display: none;
   display: flex;
   flex-direction: column;
   justify-content: center;

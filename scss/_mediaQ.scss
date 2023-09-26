@@ -1,0 +1,121 @@
+@media screen and (min-width: 576px) {
+  body{
+    header{
+      nav{
+        div{
+          .mediaLogo{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .mediaTexto {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+    body{
+      min-height: 100vh;
+    }
+    main {
+      background-color: #000000;
+    }
+    .celNav {
+      background-color: #ffffff;
+    }
+    .mediaLogo1 {
+      display: none;
+    }
+main{
+  section{
+    div{
+      div{
+        div{
+           .fotosCarrusel {
+             width: 200px;
+             height: 200px;
+           }
+         }
+      }
+    }
+  }
+ }
+    .divNavbar{
+      background-color: #ffffff;
+    }
+main{
+  .mainContacto{
+    display: block;
+  }
+}
+    main{
+      .divServ{
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        display: grid;
+      grid-template-columns: 400px;
+      grid-template-rows: 400px 400px 400px 400px 400px 400px;
+      gap: 5px 5px;
+      grid-auto-flow: row;
+      grid-template-areas: 
+       "foto1"
+       "foto2"
+       "foto3"
+       "foto4"
+       "texto"
+       "texto";
+      }
+
+    }
+    a:hover {
+      color: #000000 !important;
+      transition: 1s;
+      text-decoration: underline #f69928;
+      text-underline-offset: 10px;
+      text-decoration-thickness: 3px;
+    }
+    main{
+        .nosotrosGrid{
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 200px 0px;
+          .divNosotrosGrid{
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: 300px 300px 300px;
+            gap: 0px 0px;
+            grid-template-areas: 
+            "gridUno"
+            "gridDos"
+            "gridTres";
+            .gridUno{
+              .fotoNosotros {
+                margin: 50px;
+                height: 400px;
+                width: 400px;
+              }
+            }
+            .gridDos{
+              .fotoNosotros1 {
+                margin: 50px;
+                height: 400px;
+                width: 400px;
+              }
+            }
+            .gridTres{
+              .fotoNosotros{
+                margin: 50px;
+                height: 400px;
+                width: 400px;
+              }
+            }
+          }
+        }
+    }
+    
+  
+  }
+  
