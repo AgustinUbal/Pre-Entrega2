@@ -1,3 +1,8 @@
+@import "_variables";
+@import "_mixin";
+
+
+
 @import "_contacto";
 @import "_nosotros";
 @import "_servicios";
@@ -45,11 +50,11 @@
                             flex-direction: column;
                             justify-content: center;
                             a{
-                                color: #825a02 !important;
+                                color: $colorLetrasMenu !important;
                                 &:hover{
                                     color: #ffffff !important;
                                     transition: 1s;
-                                    text-decoration: underline #f69928;
+                                    text-decoration: underline $underlineMenu;
                                     text-underline-offset: 10px;
                                     text-decoration-thickness: 3px;
                                 }
@@ -60,11 +65,11 @@
                             flex-direction: column;
                             justify-content: center;
                             a{
-                                color: #825a02 !important;
+                                color: $colorLetrasMenu !important;
                                 &:hover{
                                     color: #ffffff !important;
                                     transition: 1s;
-                                    text-decoration: underline #f69928;
+                                    text-decoration: underline $underlineMenu;
                                     text-underline-offset: 10px;
                                     text-decoration-thickness: 3px;
                                 }
@@ -75,11 +80,11 @@
                             flex-direction: column;
                             justify-content: center;
                             a{
-                                color: #825a02 !important;
+                                color: $colorLetrasMenu !important;
                                 &:hover{
                                     color: #ffffff !important;
                                     transition: 1s;
-                                    text-decoration: underline #f69928;
+                                    text-decoration: underline $underlineMenu;
                                     text-underline-offset: 10px;
                                     text-decoration-thickness: 3px;
                                 }
@@ -104,11 +109,11 @@
                             flex-direction: column;
                             justify-content: center;
                             a{
-                                color: #825a02 !important;
+                                color: $colorLetrasMenu !important;
                                 &:hover{
                                     color: #ffffff !important;
                                     transition: 1s;
-                                    text-decoration: underline #f69928;
+                                    text-decoration: underline $underlineMenu;
                                     text-underline-offset: 10px;
                                     text-decoration-thickness: 3px;
                                 }
@@ -120,11 +125,11 @@
                             border-radius: 50%;
                             padding: 0;
                             a{
-                                color: #825a02 !important;
+                                color: $colorLetrasMenu !important;
                                 &:hover{
                                     color: #ffffff !important;
                                     transition: 1s;
-                                    text-decoration: underline #f69928;
+                                    text-decoration: underline $underlineMenu;
                                     text-underline-offset: 10px;
                                     text-decoration-thickness: 3px;
                                 }
@@ -200,25 +205,25 @@
         .pNosotros{
             font-family: "Oswald", sans-serif;
             font-weight: 300;
-            color: #f69928;
+            color: $underlineMenu;
             margin: 5px;
         }
         .pNosotros{
             font-family: "Oswald", sans-serif;
             font-weight: 300;
-            color: #f69928;
+            color: $underlineMenu;
             margin: 5px;
         }
         .pNosotros{
             font-family: "Oswald", sans-serif;
             font-weight: 300;
-            color: #f69928;
+            color: $underlineMenu;
             margin: 5px;
         }
         .pNosotros{
             font-family: "Oswald", sans-serif;
             font-weight: 300;
-            color: #f69928;
+            color: $underlineMenu;
             margin: 5px;
         }
     }

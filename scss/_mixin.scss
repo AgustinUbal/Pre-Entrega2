@@ -1,0 +1,25 @@
+@mixin titulos() {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: $colorH2;
+}
+@mixin contactoH4 () {
+    font-size: 1.5rem;
+    color: #573c00;
+    text-align: center;
+    padding: 10px;
+}
+@mixin h2Serv() {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: $colorH2
+}
+@mixin pNos() {
+    font-family: "Oswald", sans-serif;
+    font-size: 29px;
+    font-weight: 300;
+    color: $underlineMenu;
+    margin: 5px;
+}

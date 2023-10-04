@@ -1,10 +1,7 @@
 main{
     div{
         h1{
-            font-family: "Oswald", sans-serif;
-            font-weight: 700;
-            text-align: center;
-            color: #c4c6c8;
+            @include titulos
         }
     }
     .mainContacto{
@@ -16,11 +13,11 @@ main{
         gap: 0px 0px;
         .divMapa{
             .h2Mapa{
-                background-color: #c4c6c8;
+                background-color: $colorH2;
                 text-align: center;
                 color: #000000;
                 .h2Mapa{
-                    background-color: #c4c6c8;
+                    background-color: $colorH2;
                     text-align: center;
                     color: #000000;
                 }
@@ -34,7 +31,7 @@ main{
                 text-align: center;
                 background-color: rgba(255, 255, 255, 0.87);
                 .h2Mapa{
-                    background-color: #c4c6c8;
+                    background-color: $colorH2;
                     text-align: center;
                     color: #000000;
                 }
@@ -47,28 +44,19 @@ main{
                 .contactanosDentro{
                     text-shadow: 0px 0px 5px rgb(255, 255, 255);
                     h4{
-                        font-size: 1.5rem;
-                        color: #573c00;
-                        text-align: center;
-                        padding: 10px;
+                        @include contactoH4
                     }
                 }
                 .contactanosDentro{
                     text-shadow: 0px 0px 5px rgb(255, 255, 255);
                     h4{
-                        font-size: 1.5rem;
-                        color: #573c00;
-                        text-align: center;
-                        padding: 10px;
+                        @include contactoH4
                     }
                 }
                 .contactanosDentro{
                     text-shadow: 0px 0px 5px rgb(255, 255, 255);
                     h4{
-                        font-size: 1.5rem;
-                        color: #573c00;
-                        text-align: center;
-                        padding: 10px;
+                        @include contactoH4
                     }
                 }
             }
@@ -77,7 +65,7 @@ main{
     div{
         div{
             .h2Mapa{
-                background-color: #c4c6c8;
+                background-color: $colorH2;
                 text-align: center;
                 color: #000000;
             }

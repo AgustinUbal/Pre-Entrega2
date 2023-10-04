@@ -1,9 +1,6 @@
 main{
     h1{
-        font-family: "Oswald", sans-serif;
-        font-weight: 700;
-        text-align: center;
-        color: #c4c6c8;
+        @include titulos
     }
     .divServ{
         display: grid;
@@ -46,16 +43,10 @@ main{
             }
             div{
                 .h2Servicios{
-                    font-family: "Oswald", sans-serif;
-                    font-weight: 400;
-                    text-align: center;
-                    color: #c4c6c8;
+                    @include h2Serv
                 }
                 .h3Servicios{
-                    font-family: "Oswald", sans-serif;
-                    font-weight: 400;
-                    text-align: center;
-                    color: #c4c6c8;
+                    @include h2Serv
                 }
                 .pNosotros{
                     font-family: "Oswald", sans-serif;
@@ -65,17 +56,14 @@ main{
                     margin: 5px;
                 }
                 .h3Servicios{
-                    font-family: "Oswald", sans-serif;
-                    font-weight: 400;
-                    text-align: center;
-                    color: #c4c6c8;
+                    @include h2Serv
                 }
                 div{
                     .pNosotros{
                         font-family: "Oswald", sans-serif;
                         font-size: 25px;
                         font-weight: 300;
-                        color: #f69928;
+                        color: $underlineMenu;
                         margin: 5px;
                     }
                 }

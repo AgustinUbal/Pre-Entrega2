@@ -148,28 +148,6 @@ main .nosotrosGrid .pNosotros {
   color: #f69928;
   margin: 5px;
 }
-main .nosotrosGrid .pNosotros {
-  font-family: "Oswald", sans-serif;
-  font-size: 29px;
-  font-weight: 300;
-  color: #f69928;
-  margin: 5px;
-}
-main .nosotrosGrid .pNosotros {
-  font-family: "Oswald", sans-serif;
-  font-size: 29px;
-  font-weight: 300;
-  color: #f69928;
-  margin: 5px;
-}
-main .nosotrosGrid .pNosotros {
-  font-family: "Oswald", sans-serif;
-  font-size: 29px;
-  font-weight: 300;
-  color: #f69928;
-  margin: 5px;
-}
-
 main h1 {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
@@ -510,25 +488,25 @@ main section div div div div .logo2 {
   padding: 0;
 }
 
-.mediaTexto .pNosotros {
+.mediaTexto .pNosotros, .mediaTexto main .nosotrosGrid .pNosotros, main .nosotrosGrid .mediaTexto .pNosotros {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   color: #f69928;
   margin: 5px;
 }
-.mediaTexto .pNosotros {
+.mediaTexto .pNosotros, .mediaTexto main .nosotrosGrid .pNosotros, main .nosotrosGrid .mediaTexto .pNosotros {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   color: #f69928;
   margin: 5px;
 }
-.mediaTexto .pNosotros {
+.mediaTexto .pNosotros, .mediaTexto main .nosotrosGrid .pNosotros, main .nosotrosGrid .mediaTexto .pNosotros {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   color: #f69928;
   margin: 5px;
 }
-.mediaTexto .pNosotros {
+.mediaTexto .pNosotros, .mediaTexto main .nosotrosGrid .pNosotros, main .nosotrosGrid .mediaTexto .pNosotros {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   color: #f69928;

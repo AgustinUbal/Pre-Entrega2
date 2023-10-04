@@ -1,10 +1,7 @@
 main{
     div{
         h1{
-            font-family: "Oswald", sans-serif;
-            font-weight: 700;
-            text-align: center;
-            color: #c4c6c8;
+            @include titulos
         }
     }
     .nosotrosGrid{
@@ -46,35 +43,23 @@ main{
                 font-family: "Oswald", sans-serif;
                 font-weight: 500;
                 text-align: center;
-                color: #c4c6c8;
+                color: $colorH2
             }
         }.pNosotros{
             font-family: "Oswald", sans-serif;
             font-size: 29px;
             font-weight: 300;
-            color: #f69928;
+            color: $underlineMenu;
             margin: 5px;
         }
         .pNosotros{
-            font-family: "Oswald", sans-serif;
-            font-size: 29px;
-            font-weight: 300;
-            color: #f69928;
-            margin: 5px;
+            @extend .pNosotros;
         }
         .pNosotros{
-            font-family: "Oswald", sans-serif;
-            font-size: 29px;
-            font-weight: 300;
-            color: #f69928;
-            margin: 5px;
+            @extend .pNosotros;
         }
         .pNosotros{
-            font-family: "Oswald", sans-serif;
-            font-size: 29px;
-            font-weight: 300;
-            color: #f69928;
-            margin: 5px;
+            @extend .pNosotros;
         }
         
       }
