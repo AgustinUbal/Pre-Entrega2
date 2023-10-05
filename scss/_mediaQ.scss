@@ -56,8 +56,8 @@ main{
         height: 100%;
         padding: 40px;
         display: grid;
-      grid-template-columns: 400px;
-      grid-template-rows: 400px 400px 400px 400px 400px 400px;
+      grid-template-columns: 300px;
+      grid-template-rows: 300px 300px 300px 300px 300px 300px;
       gap: 5px 5px;
       grid-auto-flow: row;
       grid-template-areas: 
@@ -67,6 +67,29 @@ main{
        "foto4"
        "texto"
        "texto";
+       .foto4{
+        .imgSer{
+          width: 300px;
+        }
+       }
+       .foto2{
+        .imgSer{
+          width: 300px;
+        }
+       }
+       .foto3{
+        .imgSer{
+          width: 300px;
+        }
+       }
+       .foto1{
+        .imgSer{
+          width: 300px;
+        }
+       }
+       .texto{
+        width: 300px;
+       }
       }
 
     }
@@ -81,7 +104,7 @@ main{
         .nosotrosGrid{
           display: grid;
           grid-template-columns: 1fr;
-          gap: 200px 0px;
+          gap: 100px 0px;
           .divNosotrosGrid{
             display: grid;
             grid-template-columns: 300px;
@@ -93,29 +116,44 @@ main{
             "gridTres";
             .gridUno{
               .fotoNosotros {
-                margin: 50px;
-                height: 400px;
-                width: 400px;
+                height: 300px;
+                width: 300px;
+                padding: 5px;
+                margin-left: 30px;
               }
             }
             .gridDos{
               .fotoNosotros1 {
-                margin: 50px;
-                height: 400px;
-                width: 400px;
+                height: 300px;
+                width: 300px;
+                padding: 5px;
+                margin-left: 30px;
               }
             }
             .gridTres{
               .fotoNosotros{
-                margin: 50px;
-                height: 400px;
-                width: 400px;
+                height: 300px;
+                width: 300px;
+                padding: 5px;
+                margin-left: 30px;
               }
             }
+          }
+          .pNosotros{
+            font-size: 20px;
           }
         }
     }
     
   
   }
-  
+footer{
+  .footerGrid{
+    div{
+      a{
+        .botonesFooter{
+        }
+      }
+    }
+  }
+}

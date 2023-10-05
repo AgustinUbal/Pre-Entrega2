@@ -230,6 +230,25 @@
 
     footer{
         .footerGrid{
-            display: grid;
+            display: flex;
+            flex-direction: row;
+            a{
+                width: 380px;
+                border-radius: 0%;
+            }
+            a{
+                @extend a
+            }
+            a{
+                width: 380px;
+                border-radius: 0%;
+            }
+            a{
+                @extend a
+            }
+            a{
+                width: 380px;
+                border-radius: 0%;
+            }
         }
     }

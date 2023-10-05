@@ -285,13 +285,28 @@ main section div div .fotoProductos {
     height: 100%;
     padding: 40px;
     display: grid;
-    grid-template-columns: 400px;
-    grid-template-rows: 400px 400px 400px 400px 400px 400px;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
     gap: 5px 5px;
     grid-auto-flow: row;
     grid-template-areas: "foto1" "foto2" "foto3" "foto4" "texto" "texto";
   }
-  a:hover {
+  main .divServ .foto4 .imgSer {
+    width: 300px;
+  }
+  main .divServ .foto2 .imgSer {
+    width: 300px;
+  }
+  main .divServ .foto3 .imgSer {
+    width: 300px;
+  }
+  main .divServ .foto1 .imgSer {
+    width: 300px;
+  }
+  main .divServ .texto {
+    width: 300px;
+  }
+  a:hover, footer .footerGrid a:hover {
     color: #000000 !important;
     transition: 1s;
     text-decoration: underline #f69928;
@@ -301,7 +316,7 @@ main section div div .fotoProductos {
   main .nosotrosGrid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 200px 0px;
+    gap: 100px 0px;
   }
   main .nosotrosGrid .divNosotrosGrid {
     display: grid;
@@ -311,19 +326,25 @@ main section div div .fotoProductos {
     grid-template-areas: "gridUno" "gridDos" "gridTres";
   }
   main .nosotrosGrid .divNosotrosGrid .gridUno .fotoNosotros {
-    margin: 50px;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    margin-left: 30px;
   }
   main .nosotrosGrid .divNosotrosGrid .gridDos .fotoNosotros1 {
-    margin: 50px;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    margin-left: 30px;
   }
   main .nosotrosGrid .divNosotrosGrid .gridTres .fotoNosotros {
-    margin: 50px;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    margin-left: 30px;
+  }
+  main .nosotrosGrid .pNosotros {
+    font-size: 20px;
   }
 }
 * {
@@ -514,7 +535,20 @@ main section div div div div .logo2 {
 }
 
 footer .footerGrid {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+}
+footer .footerGrid a {
+  width: 380px;
+  border-radius: 0%;
+}
+footer .footerGrid a {
+  width: 380px;
+  border-radius: 0%;
+}
+footer .footerGrid a {
+  width: 380px;
+  border-radius: 0%;
 }
 
 /*# sourceMappingURL=estilo.css.map */
