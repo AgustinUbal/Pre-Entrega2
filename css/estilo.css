@@ -347,6 +347,20 @@ main section div div .fotoProductos {
     font-size: 20px;
   }
 }
+main .mainContacto .divMapa .mapa {
+  width: 350px;
+  margin: 4px;
+}
+main form .divForm {
+  padding: 2px !important;
+  width: 355px;
+  margin: 5px;
+}
+main form .divForm .nombreApellido {
+  margin: 5px;
+  padding: 0px;
+}
+
 * {
   margin: 0;
   padding: 0;

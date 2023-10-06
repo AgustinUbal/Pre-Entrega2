@@ -147,12 +147,24 @@ main{
     
   
   }
-footer{
-  .footerGrid{
-    div{
-      a{
-        .botonesFooter{
-        }
+
+main{
+  .mainContacto{
+    .divMapa{
+      .mapa{
+        width: 350px;
+        margin: 4px;
+      }
+    }
+  }
+  form{
+    .divForm{
+      padding: 2px !important;
+      width: 355px;
+      margin: 5px;
+      .nombreApellido{
+        margin: 5px;
+        padding: 0px;
       }
     }
   }
